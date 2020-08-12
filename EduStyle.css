@@ -1,0 +1,47 @@
+body{
+    background-image: url(http://www.hunter.cuny.edu/artsci/pressroom/slideshow-home/hunter-college-exterior/image);
+}
+.main{
+    display: inline-block;
+    background: rgba(156, 50, 191, 0.5);
+    border-radius: 7px;
+    padding: 0px 15px 10px 15px;
+}
+.home a{
+    background: purple;
+    border-radius: 5px;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: Impact;
+    font-size: 15px;
+}
+nav{
+    padding-bottom: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 17px;
+}
+
+h2{
+    color: white;
+    font-size: 27px;
+}
+p{
+    color: white;
+    font-size: 24px;
+    line-height: 0.3;
+}
+ul, li{
+    color: white;
+    font-size: 24px;
+}
+a{
+    color: white;
+    font-size: 24px;
+}

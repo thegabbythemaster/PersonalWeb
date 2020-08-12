@@ -1,0 +1,45 @@
+body{
+	background-image: url(https://thespinoff.co.nz/wp-content/uploads/2018/01/Wiki-background.png);
+	/*background-size: cover; */
+}
+h1{
+    font-family: Impact;
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    margin: 10px;
+}
+
+.home a{
+    background: yellowgreen;
+    border-radius: 5px;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: Impact;
+    font-size: 15px;
+}
+
+.info h3{
+    font-size: 25px;
+    font-family: Helvetica;
+    color: black;
+}
+
+ul{
+    background: rgba(184, 252, 239, 0.5);
+    border-radius: 7px;
+    color: black;
+    margin: 15px;
+    display: inline-block;
+    padding: 0px 15px 0px 40px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+li{
+    line-height: 10px;
+}

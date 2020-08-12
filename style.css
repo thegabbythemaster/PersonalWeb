@@ -1,0 +1,132 @@
+html{
+	font-size: 16px;
+}
+#title{
+	border: 3px solid white;
+	border-radius: 50px;
+  	background-color: #333333;
+}
+
+.projects h2{
+	margin-top: 30px;
+}
+
+.skills h2{
+	margin-top: 0px;
+}
+.wrapper{
+	width: 100%;
+}
+body{
+	background-image: url(https://d2r55xnwy6nx47.cloudfront.net/uploads/2018/06/Milkyway_fullwidthLede.jpg);
+	/*background-size: cover; */
+}
+
+h3, h4{
+	font-family: "Georgia", "Times", serif;
+	color: rgb(190, 223, 250);
+}
+ul, li, p, a{
+	font-family: Georgia;
+	color: white;
+	min-width: 200px;
+	position: relative;
+}
+
+p{
+	margin-top: 10px;
+}
+h1{
+	color: rgb(190, 223, 250);
+	font-family: "Brush Script MT", "Times", serif;
+	font-size: 6.25rem;
+	text-align: center;
+}
+h2{
+	position: relative;
+	margin-bottom: 5px;
+	color: rgb(190, 223, 250);
+	font-size: 3.125rem;
+	font-family: "Brush Script MT";
+}
+
+.Me p{
+	line-height: 0.3;
+}
+.more-info a{
+  background: rgba(190, 223, 250, 0.85);
+  border-radius: 3px;
+  color: black;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-family: "Brush Script MT", "Times", serif;
+  font-size: 1.875rem;
+}
+
+.center{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.textOverImage{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin:4px;
+	background-size: 100%;
+	background-position: center;
+	transition: 0.5s;
+}
+
+.textOverImage:hover{
+	background-size: 110%;
+}
+
+.textOverImage:after{
+	position: absolute;
+	top: 87.5%; /*this sets the slide up*/
+	bottom: 0;
+	left: 0;
+	right: 0;
+	white-space: pre-wrap;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	padding: 8px;
+	content:attr(data-text);
+	transition: 0.5s;
+}
+
+.textOverImage:hover:after{
+	top: 0;
+	padding: 8px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.textOverImage:first-line{
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.resume{
+	text-align: left;
+}
+
+@media only screen and (max-width: 480px){
+	body{
+		font-size: 12px;
+		background-attachment: fixed;
+	}
+	.info{
+		font-size: 12px;
+		position: relative;
+	}
+	html{
+		font-size: 1.5em;
+	}
+}
